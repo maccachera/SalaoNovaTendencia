@@ -19,14 +19,19 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Allura&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <!-- ===== TOP BAR ===== -->
   <div class="top-bar">
+    <div class="top-bar-social">
+      <a href="https://www.instagram.com/n_tendencia/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">IG</a>
+      <a href="https://www.facebook.com/salaonovatendecia" target="_blank" rel="noopener noreferrer" aria-label="Facebook">FB</a>
+    </div>
     <p>Seg. a Sáb. das 9h às 19h &middot; Agende seu horário pelo WhatsApp</p>
+    <div class="top-bar-spacer" aria-hidden="true"></div>
   </div>
 
   <!-- Schema.org LocalBusiness -->
@@ -80,13 +85,13 @@
   <main>
     <!-- ===== HERO ===== -->
     <section class="hero" id="hero">
-      <div class="container hero-grid">
+      <div class="hero-grid">
         <div class="hero-image" data-animate="fade-up">
           <img src="assets/img/RogerioCAPA.png" alt="Salão Nova Tendência" loading="eager">
         </div>
         <div class="hero-content" data-animate="fade-up">
           <p class="hero-eyebrow">Salão Nova Tendência</p>
-          <h1>A arte da <span>beleza</span></h1>
+          <h1>A arte da<span>beleza</span></h1>
           <p class="hero-subtitle">Cabelo, estética, unhas e cuidados para realçar sua autoestima.</p>
           <div class="hero-buttons">
             <a href="https://api.whatsapp.com/send/?phone=5524988679120&text=Ol%C3%A1+Sal%C3%A3o+Nova+Tend%C3%AAncia%2C+vir+do+site.&type=phone_number&app_absent=0"
@@ -334,11 +339,21 @@
 
     <!-- ===== CTA ===== -->
     <section class="cta">
-      <div class="container cta-content" data-animate="fade-up">
-        <h2>Pronta para transformar sua beleza?</h2>
-        <p>Agende agora mesmo seu horário pelo WhatsApp.</p>
-        <a href="https://api.whatsapp.com/send/?phone=5524988679120&text=Ol%C3%A1+Sal%C3%A3o+Nova+Tend%C3%AAncia%2C+vir+do+site.&type=phone_number&app_absent=0"
-           class="btn btn-primary btn-large" target="_blank" rel="noopener noreferrer">Agendar agora</a>
+      <div class="cta-grid" data-animate="fade-up">
+        <div class="cta-text">
+          <p class="cta-eyebrow">Agende agora</p>
+          <h2>Pronta para <span>transformar</span> sua beleza?</h2>
+          <ul class="cta-list">
+            <li>Atendimento personalizado do início ao fim</li>
+            <li>Profissionais qualificados e atualizados</li>
+            <li>Agendamento rápido, sem burocracia</li>
+          </ul>
+          <a href="https://api.whatsapp.com/send/?phone=5524988679120&text=Ol%C3%A1+Sal%C3%A3o+Nova+Tend%C3%AAncia%2C+vir+do+site.&type=phone_number&app_absent=0"
+             class="btn btn-outline btn-large" target="_blank" rel="noopener noreferrer">Agendar agora</a>
+        </div>
+        <div class="cta-image">
+          <img src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?w=900&q=70" alt="Ambiente do Salão Nova Tendência" loading="lazy">
+        </div>
       </div>
     </section>
   </main>
