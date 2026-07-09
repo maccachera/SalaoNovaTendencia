@@ -190,12 +190,9 @@ section {
 }
 
 .logo-mark {
-  height: 40px;
+  height: 52px;
   width: auto;
-  border-radius: 8px;
-  background: var(--branco);
-  padding: 3px 6px;
-  box-shadow: 0 4px 14px rgba(17, 17, 17, 0.12);
+  background: transparent;
 }
 
 .footer-brand .logo {
@@ -203,8 +200,7 @@ section {
 }
 
 .footer-brand .logo-mark {
-  height: 44px;
-  box-shadow: none;
+  height: 58px;
 }
 
 .nav-menu {
